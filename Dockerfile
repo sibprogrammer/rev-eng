@@ -14,7 +14,7 @@ ENV LC_ALL en_US.UTF-8
 RUN yes | unminimize
 
 RUN apt-get install --no-install-recommends -y \
-  locales man-db libc6-i386 lib32stdc++6 vim less binutils ltrace strace gdb radare2
+  man-db libc6-i386 lib32stdc++6 vim less binutils ltrace strace gdb radare2
 
 WORKDIR /target
 
